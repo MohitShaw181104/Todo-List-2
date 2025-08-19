@@ -41,7 +41,7 @@
 
 1. Navigate to the frontend folder:
 - cd frontend
-- 
+  
 2. Install dependencies:
 - npm install
   
