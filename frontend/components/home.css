@@ -1,0 +1,129 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0f2ff, #cce0ff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main container for todo list */
+div#root > div {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 50px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 50, 150, 0.15);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #1e3a8a; 
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Connect (add task) form */
+.connect_form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.connect_form input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #99c2ff;
+  font-size: 16px;
+  outline: none;
+}
+
+.connect_form button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background: #1e40af; 
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.connect_form button:hover {
+  background: #1d4ed8;
+}
+
+/* Task container */
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8fbff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 50, 150, 0.1);
+  transition: 0.3s ease;
+}
+
+.task:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 50, 150, 0.15);
+}
+
+/* Checkbox and task text */
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.line_through {
+  text-decoration: line-through;
+  color: #94a3b8; 
+}
+
+.checkbox .icon {
+  color: #2563eb;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.checkbox p {
+  margin: 0;
+  font-size: 16px;
+  color: #1e293b; 
+}
+
+/* Trash icon */
+.task span .icon {
+  color: #ef4444; 
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.task span .icon:hover {
+  transform: scale(1.2);
+}
+
+/* No tasks message */
+div > h2 {
+  text-align: center;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 20px;
+}
