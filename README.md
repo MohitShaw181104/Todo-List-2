@@ -22,26 +22,6 @@
 
 ---
 
-## Project Structure
-
-Todo-List-2/
-├── backend/
-│ ├── models/
-│ │ └── todo.jsx
-│ ├── index.js
-│ ├── package.json
-│ └── ...
-└── frontend/
-├── src/
-│ ├── Home.jsx
-│ ├── connect.jsx
-│ └── home.css
-├── package.json
-└── ...
-
-
----
-
 ## Backend Setup
 
 1. Navigate to the backend folder:
@@ -56,7 +36,7 @@ Todo-List-2/
 4. Start the backend server:
 - npm run start
 
-
+---
 ## Frontend Setup
 
 1. Navigate to the frontend folder:
